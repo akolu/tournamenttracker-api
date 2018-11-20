@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE235133-FA05-4495-BC3E-686E247CB40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{764B83DF-636F-4302-863C-77D84A334D99}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "tournamenttracker.api", "src\tournamenttracker.api\tournamenttracker.api.xproj", "{B688EF56-CAE4-455E-A627-22F75B4BEF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B688EF56-CAE4-455E-A627-22F75B4BEF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B688EF56-CAE4-455E-A627-22F75B4BEF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B688EF56-CAE4-455E-A627-22F75B4BEF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B688EF56-CAE4-455E-A627-22F75B4BEF66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B688EF56-CAE4-455E-A627-22F75B4BEF66} = {EE235133-FA05-4495-BC3E-686E247CB40B}
+	EndGlobalSection
+EndGlobal
